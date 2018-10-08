@@ -1,0 +1,836 @@
+@charset "utf-8";
+/* CSS Document */
+
+@media only screen and (max-width:2880px)
+{
+	body
+	{
+		width:1366px;
+		margin:auto;
+	}
+	
+	#header div.topmenu div.nav ul li a
+	{
+		font-size:14px;
+	}
+	
+	#header div.topmenu label
+	{
+		margin-right:5px;
+		margin-top:5px;
+		cursor:pointer;
+		display:none;
+	}
+	
+	#header div.topmenu label span
+	{
+		font-size:20px;
+		color:#333;
+	}
+	
+	#header div.topimage div.text
+	{
+		margin-top:240px;
+	}
+	
+	#header div.topimage div.text h1
+	{
+		font-size:60px;
+	}
+	
+	#header div.topimage div.text h3
+	{
+		font-size:25px;
+	}
+	
+	#mission
+	{
+		padding:150px 0px;
+	}
+	
+	#mission div.right h1
+	{
+		font-size:48px;
+	}
+	
+	#mission div.right p
+	{
+		font-size:16px;
+	}
+	
+	#services h1
+	{
+		font-size:48px;
+	}
+	
+	#services div.listcontent div.wrapbox h3
+	{
+		font-size:15px;
+	}
+	
+	#services div.listcontent div.wrapbox div.text h3
+	{
+		margin-top:20px;
+	}
+	
+	#career h1
+	{
+		font-size:48px;
+	}
+	
+	#career p
+	{
+		width:540px;
+	}
+	
+	#company
+	{
+		padding:100px 0px;
+	}
+	
+	#company div.left h1
+	{
+		font-size:48px;
+	}
+	
+	#iconlist
+	{
+		padding-bottom:100px;
+	}
+	
+	#team
+	{
+		padding:150px 0px;
+	}
+	
+	#team h1
+	{
+		font-size:48px;
+	}
+	
+	#stories div.bgleft div.cover h1
+	{
+		font-size:36px;
+	}
+	
+	#news h1
+	{
+		font-size:36px;
+	}
+}
+
+@media only screen and (max-width:1920px)
+{
+	body
+	{
+		width:100%;
+	}
+}
+
+@media only screen and (max-width:1136px)
+{
+	div.globalwrapper
+	{
+		width:94%;
+	}
+	
+	#mission div.left
+	{
+		width:480px;
+		height:480px;
+	}
+	
+	#mission div.right
+	{
+		width:500px;
+		margin-left:40px;
+	}
+	
+	#mission div.right p
+	{
+		margin-top:20px;
+	}
+	
+	#mission div.right div.pointbox
+	{
+		margin-top:30px;
+	}
+	
+	#mission div.right div.pointbox div.text
+	{
+		width:420px;
+	}
+	
+	#company div.left
+	{
+		margin-right:40px;
+	}
+	
+	#company div.right
+	{
+		width:460px;
+	}
+	
+	#stories div.bgleft div.cover
+	{
+		width:480px;
+	}
+	
+	#blog div.postlist
+	{
+		width:95%;
+	}
+	
+	#blog div.postlist div.postwrap div.left
+	{
+		width:35%;
+	}
+	
+	#blog div.postlist div.postwrap div.right
+	{
+		width:55%;
+		margin-left:9%;
+	}
+}
+
+@media only screen and (max-width:1024px)
+{
+	#header div.topmenu div.logobox
+	{
+		width:22%;
+	}
+	
+	#header div.topmenu div.logobox img
+	{
+		width:100%;
+	}
+	
+	#header div.topmenu div.nav
+	{
+		width:77%;
+	}
+	
+	#header div.topmenu div.nav ul li
+	{
+		margin-left:1px;
+	}
+	
+	#header div.topmenu div.nav ul li a
+	{
+		padding:10px;
+		font-size:13px;
+	}
+	
+	#mission div.left
+	{
+		width:440px;
+		height:440px;
+	}
+	
+	#mission div.right
+	{
+		width:460px;
+	}
+	
+	#mission div.right div.pointbox div.iconbox
+	{
+		width:32px;
+		height:32px;
+	}
+	
+	#mission div.right div.pointbox div.text
+	{
+		width:400px;
+	}
+	
+	#company div.right
+	{
+		width:400px;
+	}
+	
+	#stories div.bgleft div.cover
+	{
+		width:440px;
+	}
+	
+	#stories div.bgleft div.cover div.profile
+	{
+		margin:50px 0px;
+	}
+	
+	#stories div.bgleft div.cover div.profile div.text
+	{
+		width:60%;
+	}
+}
+
+@media only screen and (max-width:960px)
+{
+	#mission
+	{
+		padding:100px 0px;
+		text-align:center;
+	}
+
+	#mission div.left
+	{
+		display:none;
+	}
+	
+	#mission div.right
+	{
+		width:100%;
+		margin-left:0px;
+	}
+	
+	#mission div.right h1
+	{
+		font-size:36px;
+	}
+	
+	#mission div.right p
+	{
+		font-size:14px;
+	}
+	
+	#mission div.right div.pointbox
+	{
+		margin-top:100px;
+	}
+	
+	#mission div.right div.pointbox div.text
+	{
+		width:88%;
+		text-align:left;
+	}
+	
+	#services h1
+	{
+		font-size:36px;
+	}
+	
+	#company div.left
+	{
+		width:100%;
+		margin-right:0px;
+		text-align:center;
+	}
+	
+	#company div.left h1
+	{
+		font-size:36px;
+	}
+	
+	#company div.left p
+	{
+		padding:0px 50px;
+	}
+	
+	#company div.right
+	{
+		width:520px;
+		margin-top:100px;
+	}
+	
+	#career h1
+	{
+		font-size:36px;
+	}
+	
+	#team h1
+	{
+		font-size:36px;
+	}
+	
+	#stories div.bgleft div.cover
+	{
+		width:400px;
+	}
+}
+
+@media only screen and (max-width:854px)
+{
+	#services div.listcontent div.wrapbox div.iconbox
+	{
+		width:120px;
+		height:120px;
+	}
+	
+	#services div.listcontent div.wrapbox div.iconbox span
+	{
+		margin-top:40px;
+		font-size:40px;
+	}
+	
+	#services div.listcontent div.wrapbox p
+	{
+		font-size:11px;
+	}
+	
+	#team div.coverlist div.boxwrap
+	{
+		margin:0px 20px;
+	}
+	
+	#stories
+	{
+		text-align:center;
+	}
+	
+	#stories h1
+	{
+		text-align:center;
+	}
+	
+	#stories div.bgleft
+	{
+		width:100%;
+	}
+	
+	#stories div.bgleft div.cover
+	{
+		width:80%;
+		text-align:center;
+	}
+	
+	#stories div.bgleft div.cover div.profile div.text
+	{
+		width:auto;
+	}
+	
+	#footer div.menu ul li
+	{
+		margin-left:10px;
+	}
+}
+
+@media only screen and (max-width:800px)
+{
+	
+	#header div.topmenu div.logobox
+	{
+		width:200px;
+	}
+	
+	#header div.topmenu div.nav
+	{
+		width:100%;
+	}
+	
+	#header div.topmenu div.nav ul
+	{
+		width:100%;
+		padding-top:20px;
+		margin-top:20px;
+		border-top:solid 1px #EEE;
+		text-align:center;
+		display:none;
+	}
+	
+	#header div.topmenu label
+	{
+		float:right;
+		display:inline-block;
+	}
+	
+	#header div.topmenu input[type=checkbox]:checked ~ div.nav ul#navmenu
+	{
+		display:block;
+	}
+	
+	#team
+	{
+		padding:100px 0px;
+	}
+}
+
+@media only screen and (max-width:720px)
+{
+	#services div.listcontent div.wrapbox
+	{
+		width:100%;
+		margin:20px 0px;
+	}
+	
+	#services div.listcontent div.wrapbox div.iconbox
+	{
+		display:inline-block;
+		vertical-align:middle;
+	}	
+	
+	#services div.listcontent div.wrapbox div.text
+	{
+		width:200px;
+		margin-left:40px;
+		text-align:left;
+		display:inline-block;
+		vertical-align:middle;
+	}
+	
+	#services div.listcontent div.wrapbox div.text h3
+	{
+		margin-top:0px;
+	}
+		
+	#iconlist div.boxwrap
+	{
+		width:100%;
+		margin:20px 0px;
+	}
+	
+	#iconlist div.boxwrap div.iconbox
+	{
+		width:15%;
+		display:inline-block;
+		vertical-align:top;
+	}
+	
+	#iconlist div.boxwrap div.text
+	{
+		width:70%;
+		margin-left:10px;
+		display:inline-block;
+		vertical-align:top;
+		text-align:left;
+	}
+	
+	#iconlist div.boxwrap div.text h5
+	{
+		width:auto;
+		margin-top:0px;
+		display:block;
+	}	
+	
+	#team div.coverlist div.boxwrap
+	{
+		margin:0px 15px;
+	}
+	
+	#team div.coverlist div.boxwrap div.imgbox
+	{
+		width:120px;
+		height:120px;
+	}
+	
+	#footer
+	{
+		text-align:center;
+	}
+	
+	#footer div.logobox
+	{
+		width:100%;
+	}
+	
+	#footer div.menu
+	{
+		width:100%;
+		margin-top:40px;
+	}
+	
+	#footer div.menu ul li
+	{
+		margin:0px 10px;
+	}
+}
+
+@media only screen and (max-width:640px)
+{
+	#header div.topmenu
+	{
+		position:relative;
+	}
+	
+	#header div.topmenu div.nav ul li
+	{
+		display:block;
+		z-index:1000;
+	}
+	
+	#header div.topmenu div.nav ul li a
+	{
+		text-align:center;
+		font-size:17px;
+	}
+	
+	#header div.topimage
+	{
+		height:auto;
+		padding:100px 0px;
+	}
+	
+	#header div.topimage div.text
+	{
+		width:auto;
+		margin:0px;
+	}
+	
+	#header div.topimage div.text h1
+	{
+		font-size:52px;
+		margin:0px;
+	}
+		
+	#mission
+	{
+		padding:60px 0px;
+	}
+	
+	#mission div.right h1
+	{
+		font-size:28px;
+	}
+	
+	#mission div.right p
+	{
+		font-size:12px;
+	}
+	
+	#mission div.right div.pointbox div.text
+	{
+		width:80%;
+	}
+	
+	#services h1
+	{
+		font-size:28px;
+	}
+	
+	#company div.left h1
+	{
+		font-size:28px;
+	}
+	
+	#company div.right
+	{
+		display:none;
+	}
+	
+	#team
+	{
+		padding:80px 0px;
+	}
+	
+	#team div.coverlist div.boxwrap
+	{
+		width:40%;
+		margin:15px;
+	}
+	
+	#stories div.bgleft div.cover h1
+	{
+		font-size:28px;
+	}
+	
+	#blog h1
+	{
+		font-size:28px;
+	}
+		
+	#blog div.postlist
+	{
+		margin-top:50px;
+	}
+	
+	#blog div.postlist div.postwrap div.left
+	{
+		width:100%;
+	}
+	
+	#blog div.postlist div.postwrap div.right
+	{
+		display:none;
+	}
+	
+	#footer div.menu ul li a
+	{
+		font-size:11px;
+	}
+}
+
+@media only screen and (max-width:540px)
+{
+	#mission div.right h1
+	{
+		padding:0px 20px;
+		text-align:left;
+	}
+	
+	#mission div.right p
+	{
+		padding:0px 20px;
+		text-align:left;
+	}
+	
+	#mission div.right div.pointbox
+	{
+		margin-top:50px;
+	}
+	
+	#mission div.right div.pointbox div.text p
+	{
+		padding:0px;
+	}
+	
+	#career
+	{
+		text-align:center;
+	}
+	
+	#career h1
+	{
+		font-size:28px;
+	}
+	
+	#career p
+	{
+		width:auto;
+		padding:0px 20px;
+		display:block;
+	}
+	
+	#iconlist div.boxwrap div.iconbox span.demo-icon
+	{
+		font-size:32px;
+	}
+	
+	#iconlist div.boxwrap div.text
+	{
+		width:75%;
+	}
+	
+	#footer div.menu
+	{
+		display:none;
+	}
+}
+
+@media only screen and (max-width:480px)
+{
+	#header div.topimage
+	{
+		text-align:center;
+	}
+	
+	#header div.topimage div.text h1
+	{
+		font-size:40px;
+		background:url(../images/bgwhite.png);
+	}
+	
+	#company
+	{
+		padding:50px 0px;
+	}
+	
+	#company div.left p
+	{
+		padding:0px 20px;
+	}
+	
+	#iconlist
+	{
+		padding-bottom:50px;
+	}
+	
+	#stories div.bgleft div.cover div.profile div.text
+	{
+		margin-left:20px;
+		text-align:left;
+	}
+}
+
+@media only screen and (max-width:424px)
+{
+	#header div.topmenu div.logobox
+	{
+		width:160px;
+	}
+	
+	#header div.topimage div.text h1
+	{
+		font-size:40px;
+	}
+	
+	#services div.listcontent div.wrapbox div.text
+	{
+		width:180px;
+		margin-left:20px;
+	}
+	
+	#team div.coverlist div.boxwrap
+	{
+		width:100%;
+		margin:15px 0px;
+	}
+}
+
+@media only screen and (max-width:400px)
+{
+	
+	#mission div.right div.pointbox div.iconbox
+	{
+		display:none;
+	}
+	
+	#mission div.right div.pointbox div.text
+	{
+		width:90%;
+		margin-left:0px;
+	}
+	
+	#services div.listcontent div.wrapbox div.iconbox
+	{
+		width:100px;
+		height:100px;
+	}	
+	
+	#services div.listcontent div.wrapbox div.iconbox span
+	{
+		margin-top:30px;
+	}
+	
+	#stories div.bgleft div.cover div.profile div.text
+	{
+		width:100%;
+		margin-top:20px;
+		margin-left:0px;
+		text-align:center;
+	}
+}
+
+@media only screen and (max-width:384px)
+{
+	#header div.topimage div.text h1
+	{
+		font-size:32px;
+	}
+	
+	#iconlist div.boxwrap div.text
+	{
+		width:70%;
+	}
+}
+
+@media only screen and (max-width:360px)
+{
+	#services div.listcontent div.wrapbox div.text
+	{
+		width:160px;
+		margin-left:10px;
+	}
+}
+
+@media only screen and (max-width:320px)
+{
+	#header div.topimage div.text h1
+	{
+		margin-top:10px;
+		font-size:30px;
+	}
+	
+	#company div.left p
+	{
+		padding:0px 15px;
+	}
+}
